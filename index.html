@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>UNna Studio &amp; Beleza — Salão e Estética em São Bernardo do Campo</title>
+<meta name="description" content="Salão e espaço estético de alto padrão em São Bernardo do Campo. Cílios, sobrancelhas, micropigmentação, cabelo, estética facial, corpo & spa, mãos & pés. Agende pelo WhatsApp." />
+<meta name="theme-color" content="#F7F3EE" />
+<meta name="format-detection" content="telephone=no" />
+<!-- SUBSTITUIR: domínio final do site -->
+<link rel="canonical" href="https://www.unnastudio.com.br/" />
+
+<!-- Favicon (SVG inline — monograma bronze) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%232C2A28'/%3E%3Ctext x='50' y='68' font-family='Georgia,serif' font-size='58' fill='%23B8956A' text-anchor='middle'%3EU%3C/text%3E%3C/svg%3E" />
+
+<!-- Open Graph (preview ao compartilhar no WhatsApp / Instagram / Facebook) -->
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:site_name" content="UNna Studio & Beleza" />
+<meta property="og:title" content="UNna Studio & Beleza — Salão e Estética em São Bernardo do Campo" />
+<meta property="og:description" content="Beleza que transforma. Cílios, sobrancelhas, cabelo, estética facial, corpo & spa e mãos & pés — com hora marcada. Agende pelo WhatsApp." />
+<!-- SUBSTITUIR: URL pública de uma foto 1200x630 do salão -->
+<meta property="og:image" content="https://www.unnastudio.com.br/og-image.jpg" />
+<meta property="og:url" content="https://www.unnastudio.com.br/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="UNna Studio & Beleza" />
+<meta name="twitter:description" content="Salão e espaço estético de alto padrão em São Bernardo do Campo." />
+
+<!-- Google Fonts: Cormorant Garamond (títulos) + DM Sans (corpo) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+
+<!-- Folha de estilo externa.
+     NOTA: o "?v=1" força os navegadores a baixarem a versão nova após edições.
+     Ao publicar uma atualização, aumente o número (v=2, v=3…) aqui e nos scripts no fim do body. -->
+<link rel="stylesheet" href="styles.css?v=7" />
+
+<!-- Dados estruturados (Google — busca local + estrelas de avaliação) -->
+<!-- SUBSTITUIR: telefone, endereço, redes sociais, horários e nota/contagem reais -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "name": "UNna Studio & Beleza",
+  "description": "Salão e espaço estético de alto padrão em São Bernardo do Campo. Cílios, sobrancelhas, cabelo, estética facial, corpo & spa, mãos & pés.",
+  "url": "https://www.unnastudio.com.br/",
+  "image": "https://www.unnastudio.com.br/og-image.jpg",
+  "telephone": "+5511989732753",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Imperador Pedro II, 957 - Nova Petrópolis",
+    "addressLocality": "São Bernardo do Campo",
+    "addressRegion": "SP",
+    "postalCode": "09770-420",
+    "addressCountry": "BR"
+  },
+  "areaServed": "São Bernardo do Campo e região do ABC",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "19:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "09:00", "closes": "17:00" }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "10"
+  },
+  "sameAs": [
+    "https://www.instagram.com/unnastudio.oficial"
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header" id="header">
+  <div class="container">
+    <nav class="header-nav" aria-label="Navegação principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#localizacao">Localização</a>
+    </nav>
+
+    <a href="#topo" class="brand" aria-label="UNna Studio &amp; Beleza — início">UNna</a>
+
+    <div class="header-actions">
+      <a href="https://www.instagram.com/unnastudio.oficial" class="header-ig" target="_blank" rel="noopener" aria-label="Instagram do UNna Studio">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.3" cy="6.7" r=".9" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>
+      <a href="#agendar" class="btn" data-open-booking>Agendar</a>
+      <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Overlay menu mobile -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Menu">
+  <a href="#sobre" data-close>Sobre</a>
+  <a href="#servicos" data-close>Serviços</a>
+  <a href="#avaliacoes" data-close>Avaliações</a>
+  <!-- <a href="#galeria" data-close>Galeria</a> -->
+  <a href="#localizacao" data-close>Localização</a>
+  <a href="#agendar" class="btn btn--primary" data-close data-open-booking>Agendar horário</a>
+</div>
+
+<main>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="topo">
+    <div class="hero-bg">
+      <!-- Foto do hero: versão mobile (heromobile.jpg) e desktop (hero.jpg) -->
+      <picture class="hero-photo">
+        <source media="(max-width:700px)" srcset="img/heromobile.jpg" />
+        <img src="img/hero.jpg" alt="Ambiente do UNna Studio" />
+      </picture>
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-logo" aria-hidden="true">
+      <img class="hero-logo-img" src="img/logoUNna.png" alt="" />
+    </div>
+
+    <div class="hero-content">
+      <div class="container">
+        <div class="hero-inner">
+          <div class="hero-text">
+            <span class="eyebrow">São Bernardo do Campo</span>
+            <h1>Beleza que <em>transforma</em></h1>
+            <div class="hero-meta">
+              <span class="hero-rating" aria-label="Nota 5 de 5 no Google">
+                <span class="stars" aria-hidden="true">★★★★★</span> 5★ no Google
+              </span>
+              <a href="#agendar" class="btn btn--light">Agendar horário</a>
+            </div>
+          </div>
+          <div class="scroll-indicator" aria-hidden="true">
+            <span class="label">Role</span>
+            <div class="scroll-line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SOBRE ===================== -->
+  <section class="section sobre" id="sobre">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="sobre-left">
+          <span class="eyebrow reveal">Sobre o espaço</span>
+          <h2 class="title split">Um espaço criado para você se <em>sentir bem</em></h2>
+          <p class="reveal">No UNna Studio &amp; Beleza, cada detalhe foi pensado para que o seu momento de cuidado seja também um momento de descanso. Um ambiente sereno e elegante, no coração de São Bernardo do Campo.</p>
+          <p class="reveal">Unimos técnica, produtos de alto padrão e um atendimento atento para realçar a sua beleza natural — com a leveza e o requinte que você merece.</p>
+          <a href="#agendar" class="btn reveal">Agendar horário</a>
+        </div>
+
+        <div class="diferenciais">
+          <div class="dif reveal" style="transition-delay:.1s">
+            <div class="dif-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.5 5.6L20.5 9.4l-4.2 4 1 6-5.3-2.9-5.3 2.9 1-6-4.2-4 6-.8z"/></svg>
+            </div>
+            <div>
+              <h3>Especialistas em cada serviço</h3>
+              <p>Cada profissional é treinado na sua área para resultados precisos e duradouros.</p>
+            </div>
+          </div>
+          <div class="dif reveal" style="transition-delay:.2s">
+            <div class="dif-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg>
+            </div>
+            <div>
+              <h3>Produtos e técnicas de alto padrão</h3>
+              <p>Formulações seguras e eficazes aliadas às técnicas mais atuais do mercado.</p>
+            </div>
+          </div>
+          <div class="dif reveal" style="transition-delay:.3s">
+            <div class="dif-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+            </div>
+            <div>
+              <h3>Seu tempo respeitado</h3>
+              <p>Atendimento com hora marcada, sem espera. O seu horário é só seu.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DESTAQUES com ANTES / DEPOIS ===================== -->
+  <section class="section destaques">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow reveal">Veja a transformação</span>
+        <h2 class="title split">Procedimentos em <em>destaque</em></h2>
+        <p class="dest-intro reveal">Arraste a barra de cada imagem para comparar o antes e o depois.</p>
+      </div>
+
+      <div class="dest-grid">
+        <div class="dest-card reveal" style="transition-delay:.05s">
+          <!-- SUBSTITUIR as imagens "antes" e "depois" deste procedimento -->
+          <div class="ba" data-ba>
+            <div class="ba-img ba-before" style="background-image:url('img/micro-antes.jpg')"><span>ANTES</span></div>
+            <div class="ba-img ba-after"  style="background-image:url('img/micro-depois.jpg')"><span>DEPOIS</span></div>
+            <div class="ba-divider"><div class="ba-handle" tabindex="0" role="slider" aria-label="Comparar antes e depois" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"></div></div>
+          </div>
+          <div class="dest-body">
+            <span class="dest-price">A partir de R$ 295</span>
+            <h3>Micropigmentação</h3>
+            <span class="dest-dur">2h · Sobrancelhas</span>
+            <p>Fios desenhados com naturalidade e definição duradoura, valorizando o formato do seu rosto.</p>
+            <a href="#agendar" class="dest-link">Agendar &rarr;</a>
+          </div>
+        </div>
+
+        <div class="dest-card reveal" style="transition-delay:.15s">
+          <div class="ba" data-ba>
+            <div class="ba-img ba-before" style="background-image:url('img/jato-antes.jpg')"><span>ANTES</span></div>
+            <div class="ba-img ba-after"  style="background-image:url('img/jato-depois.jpg')"><span>DEPOIS</span></div>
+            <div class="ba-divider"><div class="ba-handle" tabindex="0" role="slider" aria-label="Comparar antes e depois" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"></div></div>
+          </div>
+          <div class="dest-body">
+            <span class="dest-price">A partir de R$ 350</span>
+            <h3>Jato de Plasma</h3>
+            <span class="dest-dur">3h · Estética Facial</span>
+            <p>Tecnologia de revitalização para firmeza e rejuvenescimento, sem procedimentos invasivos.</p>
+            <a href="#agendar" class="dest-link">Agendar &rarr;</a>
+          </div>
+        </div>
+
+        <div class="dest-card reveal" style="transition-delay:.25s">
+          <div class="ba" data-ba>
+            <div class="ba-img ba-before" style="background-image:url('img/fox-antes.jpg')"><span>ANTES</span></div>
+            <div class="ba-img ba-after"  style="background-image:url('img/fox-depois.jpg')"><span>DEPOIS</span></div>
+            <div class="ba-divider"><div class="ba-handle" tabindex="0" role="slider" aria-label="Comparar antes e depois" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"></div></div>
+          </div>
+          <div class="dest-body">
+            <span class="dest-price">A partir de R$ 200</span>
+            <h3>Cílios Fox Eyes</h3>
+            <span class="dest-dur">2h · Cílios</span>
+            <p>O efeito olhar de raposa que alonga e levanta o olhar com elegância e leveza.</p>
+            <a href="#agendar" class="dest-link">Agendar &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVIÇOS (tabs, com foto por item) ===================== -->
+  <section class="section servicos" id="servicos">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow reveal">Nossos serviços</span>
+        <h2 class="title split">O que fazemos por <em>você</em></h2>
+        <p class="dest-intro reveal">Escolha uma categoria para ver serviços, valores e o resultado de cada um.</p>
+      </div>
+
+      <div class="tabs-bar reveal" role="tablist" aria-label="Categorias de serviços">
+        <button class="tab active" role="tab" aria-selected="true"  data-tab="cilios">Cílios</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="sobrancelhas">Sobrancelhas</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="cabelo">Cabelo</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="facial">Estética Facial</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="corpo">Corpo &amp; Spa</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="maos">Mãos &amp; Pés</button>
+      </div>
+
+      <!-- CÍLIOS -->
+      <div class="tab-panel active" data-panel="cilios" role="tabpanel">
+        <div class="serv-grid">
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/fox-depois.jpg" alt="Cílios Fox" /></div><div class="serv-body"><div class="serv-top"><h4>Cílios Fox</h4><span class="serv-price">R$ 200+</span></div><span class="serv-dur">2h</span><p>Efeito olhar alongado e levantado, com naturalidade e leveza.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/brazil.jpg" alt="Cílios Brasileiro" /></div><div class="serv-body"><div class="serv-top"><h4>Cílios Brasileiro</h4><span class="serv-price">R$ 145+</span></div><span class="serv-dur">2h</span><p>Volume marcante e definido, ideal para um olhar expressivo.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/egypt.jpg" alt="Cílios Egipcios" /></div><div class="serv-body"><div class="serv-top"><h4>Cílios Egípcio / Híbrido</h4><span class="serv-price">R$ 170</span></div><span class="serv-dur">2h</span><p>Mix de técnicas para um resultado sob medida ao seu estilo.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/fox-depois.jpg" alt="Manutenção Cílios Fox" /><span class="serv-tag">Manutenção</span></div><div class="serv-body"><div class="serv-top"><h4>Manutenção Fox</h4><span class="serv-price">R$ 120+</span></div><span class="serv-dur">1h30</span><p>Reposição para manter o efeito fox sempre impecável.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/brazil.jpg" alt="Manutenção Cílios Brasileiro" /><span class="serv-tag">Manutenção</span></div><div class="serv-body"><div class="serv-top"><h4>Manutenção Brasileiro</h4><span class="serv-price">R$ 95+</span></div><span class="serv-dur">1h30</span><p>Renovação do volume brasileiro com retoque dos fios.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/egypt.jpg" alt="Manutenção Cílios Egípcio" /><span class="serv-tag">Manutenção</span></div><div class="serv-body"><div class="serv-top"><h4>Manutenção Egípcio</h4><span class="serv-price">R$ 100+</span></div><span class="serv-dur">1h30</span><p>Manutenção do efeito híbrido/egípcio com acabamento preciso.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/lift.jpg" alt="Cílios Lift" /></div><div class="serv-body"><div class="serv-top"><h4>Lash Lifting</h4><span class="serv-price">R$ 120+</span></div><span class="serv-dur">2h</span><p>Curvatura natural dos seus próprios cílios, sem extensões.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/remove.jpg" alt="Cílios Remover" /></div><div class="serv-body"><div class="serv-top"><h4>Remoção de Cílios</h4><span class="serv-price">R$ 30</span></div><span class="serv-dur">1h</span><p>Remoção segura das extensões, preservando os fios naturais.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+        </div>
+      </div>
+
+      <!-- SOBRANCELHAS -->
+      <div class="tab-panel" data-panel="sobrancelhas" role="tabpanel">
+        <div class="serv-grid">
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/micro-depois.jpg" alt="Micropigmentacao" /></div><div class="serv-body"><div class="serv-top"><h4>Micropigmentação</h4><span class="serv-price">R$ 295+</span></div><span class="serv-dur">2h</span><p>Fios desenhados com naturalidade e definição duradoura.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/brow.jpg" alt="Brow" /></div><div class="serv-body"><div class="serv-top"><h4>Brow Lamination</h4><span class="serv-price">Consultar</span></div><span class="serv-dur">1h</span><p>Alinhamento dos fios para sobrancelhas cheias e marcantes.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/brush.jpg" alt="Sombrancelha Brush" /></div><div class="serv-body"><div class="serv-top"><h4>Alinhamento de Sobrancelha</h4><span class="serv-price">R$ 70</span></div><span class="serv-dur">30min</span><p>Design e alinhamento para realçar o formato do olhar.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/delineado.jpg" alt="Sombrancelha Delineado" /></div><div class="serv-body"><div class="serv-top"><h4>Delineador Definitivo</h4><span class="serv-price">R$ 295</span></div><span class="serv-dur">2h</span><p>Traço definido e duradouro que valoriza o seu olhar.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+        </div>
+      </div>
+
+      <!-- CABELO -->
+      <div class="tab-panel" data-panel="cabelo" role="tabpanel">
+        <div class="serv-grid">
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/hair.jpg" alt="Cabelo " /></div><div class="serv-body"><div class="serv-top"><h4>Corte Feminino</h4><span class="serv-price">R$ 130</span></div><span class="serv-dur">1h30</span><p>Corte personalizado ao seu rosto, estilo e rotina.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/liso.jpg" alt="Cabelo Liso" /></div><div class="serv-body"><div class="serv-top"><h4>Escova Simples</h4><span class="serv-price">R$ 75</span></div><span class="serv-dur">1h30</span><p>Modelagem e brilho para um acabamento impecável.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/botox.jpg" alt="Cabelo Botox" /></div><div class="serv-body"><div class="serv-top"><h4>Escova de Botox</h4><span class="serv-price">R$ 150+</span></div><span class="serv-dur">3h</span><p>Tratamento de reconstrução com redução de volume e frizz.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/lavagem.jpg" alt="Cabelo " /></div><div class="serv-body"><div class="serv-top"><h4>Hidratação</h4><span class="serv-price">R$ 130+</span></div><span class="serv-dur">2h</span><p>Reposição de nutrientes para fios macios e saudáveis.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/colorir.jpg" alt="Cabelo " /></div><div class="serv-body"><div class="serv-top"><h4>Aplicação de Coloração</h4><span class="serv-price">R$ 150+</span></div><span class="serv-dur">2h30</span><p>Cor uniforme e vibrante, com cuidado na saúde do fio.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/tratamento.jpg" alt="Cabelo " /></div><div class="serv-body"><div class="serv-top"><h4>Terapia Capilar</h4><span class="serv-price">R$ 135+</span></div><span class="serv-dur">1h</span><p>Tratamento do couro cabeludo para equilíbrio e saúde.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/avaliar.jpg" alt="Cabelo Avaliar" /></div><div class="serv-body"><div class="serv-top"><h4>Avaliação Capilar</h4><span class="serv-price">R$ 80</span></div><span class="serv-dur">30min</span><p>Diagnóstico completo para indicar o melhor tratamento.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+        </div>
+      </div>
+
+      <!-- ESTÉTICA FACIAL -->
+      <div class="tab-panel" data-panel="facial" role="tabpanel">
+        <div class="serv-grid">
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/microagu.jpg" alt="Cílios Fox" /></div><div class="serv-body"><div class="serv-top"><h4>Microagulhamento Facial</h4><span class="serv-price">R$ 250</span></div><span class="serv-dur">2h30</span><p>Estímulo de colágeno para textura e viço renovados.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/jato-depois.jpg" alt="Cílios Fox" /></div><div class="serv-body"><div class="serv-top"><h4>Jato de Plasma</h4><span class="serv-price">R$ 350+</span></div><span class="serv-dur">3h</span><p>Revitalização para firmeza e rejuvenescimento da pele.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/dermaplaning.jpg" alt="Cílios Fox" /></div><div class="serv-body"><div class="serv-top"><h4>Dermaplaning</h4><span class="serv-price">R$ 120+</span></div><span class="serv-dur">1h30</span><p>Esfoliação que remove células mortas e penugem facial.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/labios.jpg" alt="Cílios Fox" /></div><div class="serv-body"><div class="serv-top"><h4>Microagulhamento Labial</h4><span class="serv-price">R$ 299+</span></div><span class="serv-dur">1h30</span><p>Hidratação e realce natural da cor dos lábios.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+        </div>
+      </div>
+
+      <!-- CORPO & SPA -->
+      <div class="tab-panel" data-panel="corpo" role="tabpanel">
+        <div class="serv-grid">
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/pernamassagem.jpg" alt="Cílios Fox" /></div><div class="serv-body"><div class="serv-top"><h4>Drenagem Linfática</h4><span class="serv-price">R$ 135</span></div><span class="serv-dur">2h</span><p>Massagem que reduz inchaço e ativa a circulação.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/massagem.jpg" alt="Cílios Fox" /></div><div class="serv-body"><div class="serv-top"><h4>Massagem Relaxante</h4><span class="serv-price">R$ 90</span></div><span class="serv-dur">1h</span><p>Alívio de tensões para corpo e mente em equilíbrio.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/pernasdep.jpg" alt="Cílios Fox" /></div><div class="serv-body"><div class="serv-top"><h4>Depilação Completa</h4><span class="serv-price">R$ 150</span></div><span class="serv-dur">1h30</span><p>Depilação de corpo inteiro com técnica e cuidado.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/depilarrosto.jpg" alt="Cílios Fox" /></div><div class="serv-body"><div class="serv-top"><h4>Depilação Facial</h4><span class="serv-price">R$ 50</span></div><span class="serv-dur">1h</span><p>Remoção delicada dos pelos do rosto, com acabamento preciso.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/buço.jpg" alt="Cílios Fox" /></div><div class="serv-body"><div class="serv-top"><h4>Depilação de Buço</h4><span class="serv-price">R$ 30+</span></div><span class="serv-dur">20min</span><p>Rápida e prática, para um rosto sempre impecável.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+        </div>
+      </div>
+
+      <!-- MÃOS & PÉS -->
+      <div class="tab-panel" data-panel="maos" role="tabpanel">
+        <div class="serv-grid">
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/manicure.jpg" alt="Cílios Fox" /></div><div class="serv-body"><div class="serv-top"><h4>Manicure</h4><span class="serv-price">R$ 35+</span></div><span class="serv-dur">30min</span><p>Cuidado completo das unhas das mãos com acabamento perfeito.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/pemao.jpg" alt="Cílios Fox" /></div><div class="serv-body"><div class="serv-top"><h4>Manicure e Pedicure</h4><span class="serv-price">R$ 75</span></div><span class="serv-dur">1h</span><p>Mãos e pés impecáveis em uma única sessão.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/plasticape.jpg" alt="Cílios Fox" /></div><div class="serv-body"><div class="serv-top"><h4>Plástica dos Pés</h4><span class="serv-price">R$ 120+</span></div><span class="serv-dur">1h30</span><p>Tratamento intensivo para pés macios e renovados.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+          <article class="serv-card"><div class="serv-photo"><img class="serv-img-zoom" loading="lazy" src="img/podologia.jpg" alt="Cílios Fox" /></div><div class="serv-body"><div class="serv-top"><h4>Podologia</h4><span class="serv-price">R$ 140</span></div><span class="serv-dur">1h</span><p>Cuidado técnico e saúde para os seus pés.</p><a href="#agendar" class="serv-link">Agendar &rarr;</a></div></article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== AVALIAÇÕES (Google) ===================== -->
+  <section class="section avaliacoes" id="avaliacoes">
+    <div class="container">
+      <div class="aval-head">
+        <div class="reveal">
+          <span class="eyebrow">Quem vive, recomenda</span>
+          <h2 class="title split">O que dizem <em>sobre nós</em></h2>
+        </div>
+        <!-- Nota e contagem são preenchidas automaticamente a partir de reviews.js -->
+        <div class="aval-score reveal">
+          <div class="aval-score-num" id="avalAvg">5,0</div>
+          <div>
+            <div class="stars" id="avalStars" aria-hidden="true">★★★★★</div>
+            <div class="aval-score-sub"><span id="avalCount">10</span> avaliações no Google</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- =========================================================
+           Carrossel preenchido por reviews.js (edite as avaliações lá).
+           Os slides abaixo são gerados via JavaScript.
+           ========================================================= -->
+      <div class="aval-carousel reveal" aria-label="Avaliações de clientes no Google">
+        <div class="aval-viewport" id="avalViewport">
+          <div class="aval-track" id="avalTrack"></div>
+        </div>
+      </div>
+
+      <div class="aval-cta reveal">
+        <a href="https://www.google.com/search?q=UNna+Studio+Beleza+S%C3%A3o+Bernardo+do+Campo" class="btn" id="avalProfile" target="_blank" rel="noopener">Ver todas as avaliações no Google</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALERIA (o ambiente) =====================
+       DESATIVADA até ter as fotos do salão.
+       ▶ PARA REATIVAR: apague a linha "<!== INICIO" logo abaixo e a linha "FIM ==>" após </section>. -->
+  <!-- INICIO GALERIA (remover esta linha para reativar)
+  <section class="section galeria" id="galeria">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow reveal">Conheça o espaço</span>
+        <h2 class="title split">O ambiente</h2>
+      </div>
+
+      <div class="gal-grid">
+        <div class="gal-item feature reveal">
+          <div class="gal-ph">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L19 6h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" transform="translate(-1,0)"/><circle cx="12" cy="13" r="3.5"/></svg>
+            <span>[ FOTO DESTAQUE — recepção / ambiente principal ]</span>
+          </div>
+        </div>
+        <div class="gal-item reveal" style="transition-delay:.1s">
+          <div class="gal-ph">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L19 6h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" transform="translate(-1,0)"/><circle cx="12" cy="13" r="3.5"/></svg>
+            <span>[ FOTO — sala de atendimento ]</span>
+          </div>
+        </div>
+        <div class="gal-item reveal" style="transition-delay:.2s">
+          <div class="gal-ph">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L19 6h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" transform="translate(-1,0)"/><circle cx="12" cy="13" r="3.5"/></svg>
+            <span>[ FOTO — detalhe / decoração ]</span>
+          </div>
+        </div>
+        <div class="gal-item reveal" style="transition-delay:.1s">
+          <div class="gal-ph">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L19 6h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" transform="translate(-1,0)"/><circle cx="12" cy="13" r="3.5"/></svg>
+            <span>[ FOTO — espaço de espera ]</span>
+          </div>
+        </div>
+        <div class="gal-item reveal" style="transition-delay:.2s">
+          <div class="gal-ph">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L19 6h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" transform="translate(-1,0)"/><circle cx="12" cy="13" r="3.5"/></svg>
+            <span>[ FOTO — profissional em atendimento ]</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  FIM GALERIA (remover esta linha para reativar) -->
+
+  <!-- ===================== LOCALIZAÇÃO (mapa + horários) ===================== -->
+  <section class="section localizacao" id="localizacao">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow reveal">Onde estamos</span>
+        <h2 class="title split">Venha nos <em>visitar</em></h2>
+      </div>
+
+      <div class="loc-grid">
+        <div class="loc-map reveal">
+          <!-- Mapa do Google (Google Maps → Compartilhar → "Incorporar um mapa"). -->
+          <iframe title="Mapa — UNna Studio &amp; Beleza" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d677.646342711215!2d-46.54295341920392!3d-23.704644812420995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce431373fc6f91%3A0xa9326c78a76183b5!2sUNna%20Studio!5e0!3m2!1sen!2sbr!4v1782829336670!5m2!1sen!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+
+        <div class="loc-info">
+          <div class="loc-block reveal">
+            <h3>Endereço</h3>
+            <!-- SUBSTITUIR: endereço completo -->
+            <p>Av. Imperador Pedro II, 957<br/>Nova Petrópolis · São Bernardo do Campo — SP<br/>CEP 09770-420</p>
+          </div>
+
+          <div class="loc-block reveal" style="transition-delay:.1s">
+            <h3>Horários</h3>
+            <!-- SUBSTITUIR: horários reais -->
+            <ul class="loc-hours">
+              <li><span>Segunda</span><span>Fechado</span></li>
+              <li><span>Terça a Sexta</span><span>09h – 19h</span></li>
+              <li><span>Sábado</span><span>09h – 17h</span></li>
+              <li><span>Domingo</span><span>Fechado</span></li>
+            </ul>
+            <p class="loc-note">Atendimento somente com hora marcada.</p>
+          </div>
+
+          <div class="loc-actions reveal" style="transition-delay:.2s">
+            <!-- SUBSTITUIR: endereço na URL de rotas do Google Maps -->
+            <a href="https://www.google.com/maps/dir/?api=1&destination=UNna+Studio+Beleza+São+Bernardo+do+Campo" class="btn" target="_blank" rel="noopener">Como chegar</a>
+            <a href="https://www.trinks.com/unna-studio/" class="btn btn--primary" data-open-booking target="_blank" rel="noopener">Agendar online</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA AGENDAMENTO ===================== -->
+  <section class="section cta" id="agendar">
+    <div class="container">
+      <div class="cta-inner">
+        <span class="eyebrow reveal">Agendamento</span>
+        <h2 class="cta-title split">Reserve seu <em>momento</em></h2>
+        <p class="reveal">Escolha o melhor horário para o seu cuidado. Atendimento com hora marcada, no ritmo que você merece.</p>
+
+        <!-- OPCIONAL: embed Trinks iframe aqui -->
+
+        <div class="cta-buttons reveal">
+          <!-- Abre o agendamento online do Trinks em um modal (iframe).
+               Sem JS, o link abre o Trinks em nova aba. -->
+          <a href="https://www.trinks.com/unna-studio/" class="btn btn--primary" data-open-booking target="_blank" rel="noopener">Agendar online</a>
+          <!-- SUBSTITUIR: número do WhatsApp em wa.me/55XXXXXXXXXXX -->
+          <a href="https://wa.me/5511989732753?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20UNna%20Studio." class="btn" target="_blank" rel="noopener">Falar no WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col reveal">
+        <div class="footer-brand">UNna Studio & Beleza</div>
+        <p>Studio &amp; Beleza. Um espaço de cuidado, técnica e bem-estar no coração de São Bernardo do Campo.</p>
+      </div>
+      <div class="footer-col reveal" style="transition-delay:.1s">
+        <h5>Navegação</h5>
+        <ul>
+          <li><a href="#sobre">Sobre o espaço</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#avaliacoes">Avaliações</a></li>
+          <!-- <li><a href="#galeria">Galeria</a></li> -->
+          <li><a href="#localizacao">Localização</a></li>
+        </ul>
+      </div>
+      <div class="footer-col reveal" style="transition-delay:.2s">
+        <h5>Contato</h5>
+        <ul>
+          <li><a href="#localizacao">São Bernardo do Campo, SP</a></li>
+          <!-- SUBSTITUIR: número do WhatsApp -->
+          <li><a href="https://wa.me/5511989732753" target="_blank" rel="noopener">WhatsApp</a></li>
+          <!-- SUBSTITUIR: @ do Instagram -->
+          <li><a href="https://www.instagram.com/unnastudio.oficial" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="#localizacao">Ter a Sáb · com hora marcada</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <small>© <span id="year"></span> UNna Studio &amp; Beleza. Todos os direitos reservados.</small>
+      <div class="footer-social">
+        <!-- SUBSTITUIR: links sociais reais -->
+        <a href="https://www.instagram.com/unnastudio.oficial" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://wa.me/5511989732753" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ===================== BOTÃO FLUTUANTE WHATSAPP ===================== -->
+<!-- SUBSTITUIR: número do WhatsApp em wa.me/55XXXXXXXXXXX -->
+<a class="fab-whatsapp" id="fabWhatsapp"
+   href="https://wa.me/5511989732753?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20UNna%20Studio."
+   target="_blank" rel="noopener" aria-label="Agendar pelo WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+    <path fill="currentColor" d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.1 1.6 5.9L4 29l8.3-1.6c1.7.9 3.7 1.4 5.7 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-4.9 1 .9-4.8-.3-.4c-1-1.6-1.5-3.4-1.5-5.3C4.8 9.9 9.9 4.8 16 4.8S27.2 9.9 27.2 16 22.1 24.8 16 24.8zm6.1-7.3c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-1.8-.9-3-1.6-4.2-3.6-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5 1.9.8 2.6.9 3.5.8.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z"/>
+  </svg>
+</a>
+
+<!-- ===================== MODAL DE AGENDAMENTO (Trinks) ===================== -->
+<!-- O iframe do Trinks é carregado só quando o modal é aberto (performance). -->
+<!-- O endereço do agendamento é definido em TRINKS_URL, no início do main.js. -->
+<div class="booking" id="booking" aria-hidden="true">
+  <div class="booking-overlay" data-close-booking></div>
+  <div class="booking-dialog" role="dialog" aria-modal="true" aria-label="Agendamento online">
+    <div class="booking-bar">
+      <span>Agendamento online</span>
+      <button class="booking-close" type="button" data-close-booking aria-label="Fechar agendamento">&times;</button>
+    </div>
+    <div class="booking-frame" id="bookingFrame">
+      <div class="booking-loading" id="bookingLoading">
+        <span>Carregando agendamento…</span>
+        <a class="booking-fallback" id="bookingFallback" href="#" target="_blank" rel="noopener">Abrir agendamento em nova aba ↗</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== BOTÃO FLUTUANTE WHATSAPP ===================== -->
+<!-- (mantido para contato rápido — definido mais acima no body) -->
+
+<!-- =========================================================
+     SCRIPTS
+     · reviews.js     — suas avaliações do Google (edite lá)
+     · anime.js       — animações (reveals, split, before/after)
+     · Lenis          — smooth scroll
+     · main.js        — orquestra tudo (carrossel, modal, abas…)
+     ========================================================= -->
+<script src="reviews.js?v=7"></script>
+<script src="vendor/anime.min.js"></script>
+<script src="vendor/lenis.min.js"></script>
+<script src="main.js?v=7"></script>
+</body>
+</html>
