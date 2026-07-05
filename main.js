@@ -13,7 +13,8 @@
   html.classList.add("has-js");
 
   // ignora prefers-reduced-motion — o site sempre mostra animações
-  var reduce = false;
+  var forceMotion = /force-motion=true/.test(window.location.search);
+  var reduce = false;  /* sempre false — ignora a preferência do SO */
   var hasAnime = typeof window.anime !== "undefined";
   var hasLenis = typeof window.Lenis !== "undefined";
 
