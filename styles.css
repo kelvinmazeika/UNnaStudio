@@ -327,7 +327,7 @@ body.menu-open .mobile-menu{opacity:1;visibility:visible;transform:translateY(0)
   width:clamp(150px,16vw,180px);
   height:auto;
   /* logo branca: contorno fino escuro + sombra suave para destacar mesmo em áreas claras */
-  filter:brightness(0) invert(1) drop-shadow(0 0 2px rgba(0,0,0,.65)) drop-shadow(0 3px 16px rgba(0,0,0,.5));
+  filter:brightness(0) invert(1) drop-shadow(0 0 1px rgba(0,0,0,.65)) drop-shadow(0 3px 16px rgba(0,0,0,.5));
   opacity:0;
   animation:fadeUp 1.3s var(--ease) forwards .6s;
 }
