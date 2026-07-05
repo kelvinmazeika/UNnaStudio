@@ -12,9 +12,8 @@
   var html = document.documentElement;
   html.classList.add("has-js");
 
-  // força animações se o parâmetro ?force-motion=true for passado (demo/teste)
-  var forceMotion = /force-motion=true/.test(window.location.search);
-  var reduce = forceMotion ? false : window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  // ignora prefers-reduced-motion — o site sempre mostra animações
+  var reduce = false;
   var hasAnime = typeof window.anime !== "undefined";
   var hasLenis = typeof window.Lenis !== "undefined";
 
